@@ -1,0 +1,5 @@
+description|price|currency|image URL
+
+Bananas (1 pound)|0.59|USD|"https://openclipart.org/image/100px/svg_to_png/12987/nicubunu-Bananas.png%26disposition=attachment"
+Bread (1 loaf, whole wheat)|2.37|USD|"https://openclipart.org/image/100px/svg_to_png/281107/FoodAndDrinkIconBread.png%26disposition=attachment"
+Gallon of Milk (fresh, whole, fortified)|3.29|USD|"http://images.clipartpanda.com/milk-clip-art-milk.png"
