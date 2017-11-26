@@ -1,18 +1,41 @@
 {
-	"items": [{
-			"name": "Bananas (1 pound)",
-			"age": 0.59,
-			"gender": "https://openclipart.org/image/100px/svg_to_png/12987/nicubunu-Bananas.png%26disposition=attachment"
-		},
-		{
-			"name": "Bread (1 loaf, whole wheat)",
-			"age": 2.37,
-			"gender": "https://openclipart.org/image/100px/svg_to_png/281107/FoodAndDrinkIconBread.png%26disposition=attachment"
-		},
-		{
-			"name": "Gallon of Milk (fresh, whole, fortified)",
-			"age": 3.29,
-			"gender": "http://images.clipartpanda.com/milk-clip-art-milk.png"
-		}
-	]
+	"USA": {
+		"items": [{
+				"name": "Bananas (1 pound)",
+				"age": 0.59,
+				"gender": "https://openclipart.org/image/100px/svg_to_png/12987/nicubunu-Bananas.png%26disposition=attachment"
+			},
+			{
+				"name": "Bread (1 loaf, whole wheat)",
+				"age": 2.37,
+				"gender": "https://openclipart.org/image/100px/svg_to_png/281107/FoodAndDrinkIconBread.png%26disposition=attachment"
+			},
+			{
+				"name": "Gallon of Milk (fresh, whole, fortified)",
+				"age": 3.29,
+				"gender": "http://images.clipartpanda.com/milk-clip-art-milk.png"
+			}
+		],
+		"priceLink": "http://google.com"
+	},
+
+	"GER": {
+		"items": [{
+				"name": "Potatoes (1 kg)",
+				"age": 1.47,
+				"gender": "https://openclipart.org/image/100px/svg_to_png/515/johnny-automatic-potatoes.png&disposition=attachment"
+			},
+			{
+				"name": "Bread (1 loaf, rye)",
+				"age": 1.51,
+				"gender": "https://openclipart.org/image/100px/svg_to_png/281107/FoodAndDrinkIconBread.png%26disposition=attachment"
+			},
+			{
+				"name": "Beer (500 mL)",
+				"age": 0.95,
+				"gender": "https://openclipart.org/image/100px/svg_to_png/17276/fattymattybrewing-Fatty-Matty-Brewing-Beer-Mug-Icon.png&disposition=attachment"
+			}
+		],
+		"priceLink": "https://www.expatistan.com/cost-of-living/country/germany"
+	}
 }
