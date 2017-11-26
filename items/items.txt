@@ -16,7 +16,8 @@
 				"gender": "http://images.clipartpanda.com/milk-clip-art-milk.png"
 			}
 		],
-		"priceLink": "http://google.com"
+		"priceLink": "http://google.com",
+		"currency": "USD"
 	},
 
 	"GER": {
@@ -36,6 +37,7 @@
 				"gender": "https://openclipart.org/image/100px/svg_to_png/17276/fattymattybrewing-Fatty-Matty-Brewing-Beer-Mug-Icon.png&disposition=attachment"
 			}
 		],
-		"priceLink": "https://www.expatistan.com/cost-of-living/country/germany"
+		"priceLink": "https://www.expatistan.com/cost-of-living/country/germany",
+		"currency": "EUR"
 	}
 }
