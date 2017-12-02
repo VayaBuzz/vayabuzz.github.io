@@ -2,17 +2,17 @@
 	"items": [{
 			"name": "Bananas (1 pound)",
 			"age": 0.59,
-			"gender": "https://openclipart.org/image/100px/svg_to_png/12987/nicubunu-Bananas.png%26disposition=attachment"
+			"art": "https://openclipart.org/image/100px/svg_to_png/12987/nicubunu-Bananas.png%26disposition=attachment"
 		},
 		{
 			"name": "Bread (1 loaf, whole wheat)",
 			"age": 2.37,
-			"gender": "https://openclipart.org/image/100px/svg_to_png/281107/FoodAndDrinkIconBread.png%26disposition=attachment"
+			"art": "https://openclipart.org/image/100px/svg_to_png/281107/FoodAndDrinkIconBread.png%26disposition=attachment"
 		},
 		{
 			"name": "Gallon of Milk (fresh, whole, fortified)",
 			"age": 3.29,
-			"gender": "http://images.clipartpanda.com/milk-clip-art-milk.png"
+			"art": "http://images.clipartpanda.com/milk-clip-art-milk.png"
 		}
 	]
 }
