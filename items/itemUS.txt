@@ -1,17 +1,17 @@
 {
 	"items": [{
 			"name": "Bananas (1 pound)",
-			"age": 0.59,
+			"priceOrig": 0.59,
 			"art": "https://openclipart.org/image/100px/svg_to_png/12987/nicubunu-Bananas.png%26disposition=attachment"
 		},
 		{
 			"name": "Bread (1 loaf, whole wheat)",
-			"age": 2.37,
+			"priceOrig": 2.37,
 			"art": "https://openclipart.org/image/100px/svg_to_png/281107/FoodAndDrinkIconBread.png%26disposition=attachment"
 		},
 		{
 			"name": "Gallon of Milk (fresh, whole, fortified)",
-			"age": 3.29,
+			"priceOrig": 3.29,
 			"art": "http://images.clipartpanda.com/milk-clip-art-milk.png"
 		}
 	]
