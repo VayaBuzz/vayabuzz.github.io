@@ -17,7 +17,8 @@
 			}
 		],
 		"priceLink": "http://google.com",
-		"currency": "USD"
+		"currency": "USD",
+		"bpi": 0.0
 	},
 
 	"GER": {
@@ -38,6 +39,7 @@
 			}
 		],
 		"priceLink": "https://www.expatistan.com/cost-of-living/country/germany",
-		"currency": "EUR"
+		"currency": "EUR",
+		"bpi": 0.0
 	}
 }
