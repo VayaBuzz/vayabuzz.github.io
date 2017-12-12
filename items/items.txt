@@ -41,5 +41,28 @@
 		"priceLink": "https://www.expatistan.com/cost-of-living/country/germany",
 		"currency": "EUR",
 		"bpi": 0.0
+	},
+
+	"GBR": {
+		"items": [{
+				"name": "Fish and Chips",
+				"priceOrig": 7.00,
+				"art": "https://openclipart.org/image/100px/svg_to_png/261665/FishAndChips.png&disposition=attachment"
+			},
+			{
+				"name": "Bangers and Mash",
+				"priceOrig": 10.00,
+				"art": "https://openclipart.org/image/100px/svg_to_png/217461/pig-outline.png&disposition=attachment"
+			},
+			{
+				"name": "Tea, Earl Grey, Hot",
+				"priceOrig": 0.95,
+				"art": "https://openclipart.org/image/100px/svg_to_png/8480/johnny-automatic-cup-of-tea.png&disposition=attachment"
+			}
+		],
+		"priceLink": "http://www.freetoursbyfoot.com/top-10-british-foods-london/",
+		"currency": "GBP",
+		"bpi": 0.0
 	}
+
 }
