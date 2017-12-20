@@ -16,7 +16,7 @@
 				"art": "http://images.clipartpanda.com/milk-clip-art-milk.png"
 			},
 			{
-				"name": "Honda Accord LX",
+				"name": "'18 Honda Accord LX",
 				"priceOrig": 23570.00,
 				"art": "images/accord2018.png"
 			}
