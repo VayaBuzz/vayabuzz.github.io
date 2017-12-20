@@ -18,7 +18,7 @@
 			{
 				"name": "Honda Accord LX",
 				"priceOrig": 23570.00,
-				"art": "images/accord2018.bmp"
+				"art": "images/accord2018.png"
 			}
 		],
 		"priceLink": "http://google.com",
