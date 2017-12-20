@@ -14,6 +14,11 @@
 				"name": "Gallon of Milk (fresh, whole, fortified)",
 				"priceOrig": 3.29,
 				"art": "http://images.clipartpanda.com/milk-clip-art-milk.png"
+			},
+			{
+				"name": "Honda Accord LX",
+				"priceOrig": 23570.00,
+				"art": "images/accord2018.bmp"
 			}
 		],
 		"priceLink": "http://google.com",
