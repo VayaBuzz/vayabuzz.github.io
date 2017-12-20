@@ -16,7 +16,7 @@
 				"art": "http://images.clipartpanda.com/milk-clip-art-milk.png"
 			},
 			{
-				"name": "'18 Honda Accord LX",
+				"name": "Honda Accord LX",
 				"priceOrig": 23570.00,
 				"art": "images/accord2018.png"
 			}
@@ -41,6 +41,11 @@
 				"name": "Beer (500 mL)",
 				"priceOrig": 0.95,
 				"art": "https://openclipart.org/image/100px/svg_to_png/17276/fattymattybrewing-Fatty-Matty-Brewing-Beer-Mug-Icon.png&disposition=attachment"
+			},
+			{
+				"name": "VW Golf",
+				"priceOrig": 18075.00,
+				"art": "images/golf2018.png"
 			}
 		],
 		"priceLink": "https://www.expatistan.com/cost-of-living/country/germany",
