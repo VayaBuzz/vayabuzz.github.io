@@ -1,1 +1,295 @@
-Hello World
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <title>Patrick Coffey Software Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+  <script src="coffeyBuzz.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">coffey.buzz
+       <!--<img class="patrickFace" alt="Patrick Coffey" src="http://coffey.buzz/img/coffey.png"> -->
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SKILLZ</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <!--<li><a href="#pricing">PRICING</a></li>-->
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="jumbotron text-center">
+  <h1>Patrick Coffey</h1> 
+  <p>Software Engineer - Front-End Developer</p> 
+</div>
+
+  
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h4>Software Engineer concentrating in JavaScript. Creator of Useful and (hopefully!) Beautiful Software.</h4> 
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-paperclip logo"></span>
+    </div>
+  </div>
+</div>
+  
+  
+<div id="services" class="container-fluid bg-grey text-center">
+  <h2>SKILLZ</h2>
+  <h4><i>Technologies I use...</i></h4>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-off"></span>
+      <h4>JavaScript</h4>
+      <p>powerful</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-picture"></span>
+      <h4>HTML5/CSS/Bootstrap</h4>
+      <p>pixel-perfect</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-lock"></span>
+      <h4>Angular</h4>
+      <p>responsive</p>
+    </div>
+     <div class="col-sm-3">
+      <span class="glyphicon glyphicon-facetime-video"></span>
+      <h4>JQuery</h4>
+      <p>smooth</p>
+    </div>   
+    
+    
+    </div>
+    <br><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-knight"></span>
+      <h4>Python</h4>
+      <p>pythonic</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-phone-alt"></span>
+      <h4>Android</h4>
+      <p>apptacular</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-cutlery"></span>
+      <h4>SQL</h4>
+      <p>selective</p>
+    </div>
+        <div class="col-sm-3">
+      <span class="glyphicon glyphicon-wrench"></span>
+      <h4>Linux</h4>
+      <p>rm -rf for life</p>
+    </div>
+  </div>
+</div>  
+  
+  
+<div id="portfolio" class="container-fluid text-center">
+  <h2>Portfolio</h2>
+  <h4><i>What I have created...</i></h4>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="https://codepen.io/gt9142b/pen/YGjWVx" title="weatherYo!" target="_blank">
+        <img src="http://coffey.buzz/img/weatherYoExample.png" alt="weatherYo!">
+        <p><strong>WeatherYo!</strong></p>
+          <p>Location-based weather</p></a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="http://codepen.io/gt9142b/pen/RazPQj" title="Chuck Norris Quotes" target="_blank">
+        <img src="http://coffey.buzz/img/chuckNorrisExample.png" alt="Chuck Norris">
+        <p><strong>Chuck Norris Quote Machine</strong></p>
+          <p>Funny One-Liners</p></a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href = "https://play.google.com/store/apps/details?id=com.vayabuzz.androidgames.kittypoker&hl=en" title="Kitty Poker" target="_blank">
+        <img src="http://coffey.buzz/img/kittyPokerExample.png" alt="Kitty Poker">
+        <p><strong>Kitty Poker</strong></p>
+          <p>Fun Poker App</p></a>
+      </div>
+    </div>
+</div>
+
+
+<h2>Quotes about Patrick</h2>
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <h4>"Funny and addicting game of poker!"<br><span style="font-style:normal;">Tyler Berlin, Google Play Review,
+      <a href="https://play.google.com/store/apps/details?id=com.vayabuzz.androidgames.kittypoker&hl=en" title="Kitty Poker" target="_blank"><i>Kitty Poker</i></a></span></h4>
+    </div>
+    <div class="item">
+      <h4>"Thank you for creating this app. I love you."<br><span style="font-style:normal;">Bot Nerdlen, Google Play Review,<br> <a href="http://play.google.com/store/apps/details?id=com.vayabuzz.distanceToAlamo&hl=en" title="Distance to the Alamo" target="_blank"> <i>Distance to the Alamo</i></a></span></h4>
+    </div>
+    <div class="item">
+      <h4>"Patrick is a fantastic employee. He is able to<br>handle all aspects of his technical responsibilities..."<br><span style="font-style:normal;">John Riordan, President, <a href="http://www.harvesttg.com" title="Harvest Technology Group" target="_blank"><i> Harvest Technology Group</i></a></span></h4>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> <!-- id="myCarousel" class="carousel slide text-center" data-ride="carousel"> -->
+
+
+  
+<!--
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Pricing</h2>
+    <h4>Choose a payment plan that works for you</h4>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Basic</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>20</strong> Lorem</p>
+          <p><strong>15</strong> Ipsum</p>
+          <p><strong>5</strong> Dolor</p>
+          <p><strong>2</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$19</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div> 
+    </div> 
+    <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Pro</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>50</strong> Lorem</p>
+          <p><strong>25</strong> Ipsum</p>
+          <p><strong>10</strong> Dolor</p>
+          <p><strong>5</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$29</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div> 
+    </div> 
+   <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Premium</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>100</strong> Lorem</p>
+          <p><strong>50</strong> Ipsum</p>
+          <p><strong>25</strong> Dolor</p>
+          <p><strong>10</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$49</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div> 
+    </div> 
+  </div>
+</div>   
+-->
+  </div>
+<div id="contact" class="container-fluid text-center bg-grey"> <!-- <Contact Info> -->
+  <h2 class="text-center">CONTACT PATRICK</h2>
+  <div class="row"> <!-- row A -->
+    
+    <div class="col-sm-2">
+      <a href="https://www.linkedin.com/in/ptcoffey" title="LinkedIn" target="_blank">
+        <img src="http://coffey.buzz/img/logos/In-Black-34px-R.png" alt="LinkedIn"><p>LinkedIn</p></a>
+    </div>
+        <div class="col-sm-2">
+          <a href="https://twitter.com/patcof" title="Twitter" target="_blank">
+      <img src="http://coffey.buzz/img/logos/Twitter_Social_Icon_Rounded_Square_Color34.png" alt="Twitter"><p>Twitter</p></a>
+    </div>
+        <div class="col-sm-2">
+       <a href="https://github.com/VayaBuzz" title="GitHub - Code Repository" target="_blank">
+         <img src="http://coffey.buzz/img/logos/GitHub-Mark-34px.png" alt="GitHub"><p>GitHub</p></a>
+    </div>
+        <div class="col-sm-2">
+      <a href="http://stackoverflow.com/users/1359526/patrick-c?tab=profile" title="Stack Overflow - Developer Community" target="_blank">
+      <img src="http://coffey.buzz/img/logos/stackOverflow34.png" alt="StackOverflow"><p>StackOverflow</p></a>
+    </div>
+        <div class="col-sm-2">
+          <a href="http://codepen.io/gt9142b" title="CodePen - Code Examples" target="_blank">
+             <img src="http://coffey.buzz/img/logos/codePen34.png" alt="codePen"><p>codePen</p></a>
+    </div>
+      <div class="col-sm-2">
+        <a href="http://science.howstuffworks.com/science-vs-myth/extrasensory-perceptions/esp3.htm" title="Use ESP to say hello! Or not. :-) I'm kidding!" target="_blank">
+        <img src="http://coffey.buzz/img/logos/esp34.png" alt="E.S.P."><p>esp</p></a>
+    </div>
+
+  </div>  <!-- row A -->
+</div> <!-- container-fluid bg-grey -->
+
+
+<!-- Set height and width with CSS -->
+<!-- <div id="googleMap" style="height:400px;width:100%;"></div>-->
+  
+  
+
+<footer class="container-fluid text-center bg-grey">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Bootstrap Theme Courtesy of <a href="http://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p> 
+</footer>
+</body>
+</html>
