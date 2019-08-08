@@ -1,0 +1,3 @@
+[submodule "weatherYo"]
+	path = weatherYo
+	url = https://github.com/VayaBuzz/weatherYo
