@@ -1,3 +1,6 @@
 [submodule "weatherYo"]
 	path = weatherYo
 	url = https://github.com/VayaBuzz/weatherYo
+[submodule "chuckNorrisQuotes"]
+	path = chuckNorrisQuotes
+	url = https://github.com/VayaBuzz/chuckNorrisQuotes
