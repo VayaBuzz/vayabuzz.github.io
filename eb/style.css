@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    border: 1px solid red;
+    padding: 15px;
+    background-color: #9933cc;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 2px;
+    /*border: 1px solid red;  turn on for debug */
+}
+
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+   /* hide some blankspace div's when in mobile */
+    .leftGutter{display:none;}
+    .imageThinker{display:none;}
+    .verticalLine{display:none;}
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+body {
+    font-size: 100%; /* used for changing h1 em stuff */
+    font-family: 'Arial', sans-serif;
+    background: #cccccc; /* For browsers that do not support gradients */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(#cccccc,#ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#cccccc,#ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#cccccc,#ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#cccccc,#ffffff); /* Standard syntax (must be last) */
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+html {
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 3em; /*48px;*/
+	font-style: normal;
+	font-variant: normal;
+  color: #ffffff;
+}
+
+.magazinesImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.news {
+    max-width: 185px;
+    max-height:685px;
+    height: auto;
+}
+
+.electronicWord { 
+    color: #ffffff;
+}
+.businessWord{
+  color: #a3a3a3;
+}
+.ebWord{
+  color: #cececd;
+}
+
+.logoCircle {
+    background: #aa1111;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    float: left;
+    /*margin: 5px 0 25px 0;  top, right, bottom, left */
+ }
+.logoCircle2 {
+    /*background: #aa1111;*/
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    float: left;
+    /*margin: 5px 0 25px 0;  top, right, bottom, left */
+ }
+
+/* search box in top right of page */
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 9px;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('images/magnifier-red.png');
+    background-position: 105px 5px; /* position of magglass inside box */
+    background-repeat: no-repeat;
+    padding: 5px 20px 4px 7px; /* top, right, bottom, left -- dimensions search box */
+    outline : none;
+    float: right;
+}
+
+.search{   /* for custom shift down of search field */
+   margin: 36px 0 0 0; /* top, right, bottom, left */
+}
+
+/* little trick to force wrap 
+"ElectronicBusiness" at the capital "B" */
+.col-6 li {   
+  display: inline-block;
+}
+
+/*                       */
+/* Text formatting stuff */
+/*                       */
+.whiteBackground{
+  background-color: #ffffff;
+  border-radius: 7px; 
+}
+.paragraphHeader {  /*HOME*/
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+  line-height: 16px;
+  margin: 16px auto 0 20px;   /* top, right, bottom, left */
+  color: #666666;
+}
+.paragraphText {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+  	font-style: normal;
+	font-variant: normal;
+  line-height: 18px;
+  margin: 16px 16px 0 20px; /* top, right, bottom, left */
+  color: #666666;
+}
+.paragraphIntroText {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+  	font-style: normal;
+	font-variant: normal;
+  color: #aa1111;
+}
+.barOfBlankSpace {  /* horizontal line */
+  height: 1px;
+  margin: 16.5px 16px 0 20px; /* top, right, bottom, left */
+  background-color: #a3a3a3;
+}
+.verticalLine {
+      width: 1px; /* Line width */
+      height: 500px;
+      background-color: #a3a3a3; /* Line color */
+      /*height: 85.4%; /* Override in-line if you want specific height. */
+      float: left; /* Causes the line to float to left of content. 
+        You can instead use position:absolute or display:inline-block
+        if this fits better with your design */
+        margin: 18px 0 18px 0;
+}
+
+.accordian{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+  /*color: #666666; doesn't seem to change it from black */
+  margin: 16px 16px 0 20px; /* top, right, bottom, left */
+}
+.ui-accordion-header{
+  background: linear-gradient(#ffffff,#cececd);
+  color: #666666;
+}
+.ui-accordion-header-icon {
+    float:right;
+}
+/* next two sections repress blue border from appearing*/
+.ui-accordion-header-active { 
+    border: 2px #666666;
+    outline: 2px #666666;
+}
+.ui-accordion-header-collapsed{
+     border: 2px #666666;
+     outline: 2px #666666; 
+}
+
+
+
+
+
+/* custom red checkboxes in the accordion */
+ul.checkboxRed li{
+ position: relative;
+ list-style-type: none;
+ line-height: 19px;
+ color: #666666;
+}
+ul.checkboxRed li:before {
+        content: ""; 
+        position: absolute;
+        top: 3.4px;
+        left: -22px;
+        width: 12px;
+        height: 10px;
+        background-image: url('images/checked-box-red.png');
+    }
+
+/* Right Column Formatting */
+
+.paragraphHeaderSmall {  /* right column red text */
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+  font-weight: bold;
+  line-height: 10px;
+  margin: 18px 16px 0 16px;   /* top, right, bottom, left */
+  color: #aa1111;
+}
+.paragraphSmall {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+  	font-style: normal;
+	font-variant: normal;
+  line-height: 14px;
+  margin: 8px 16px 0 16px;  /* top, right, bottom, left */
+  color: #666666;
+}
+
+.imageThinker{  /* lady in red dress */
+    position: relative;
+    left: 124px;
+    top: -340px;
+}
