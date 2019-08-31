@@ -1,0 +1,76 @@
+<html ng-app="myapp" ng-controller="myCtrl">
+<head>
+  <title>Totally Tubular Angular Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+  
+<body>  
+
+<div class='container'>
+  <div class='calculator'>
+
+    <!-- TITLE -->
+
+    <div id='title' class='text-center'>
+      <h5><b>totallyTubularCalculator</b></h5>
+    </div>
+
+    <!-- ENTRY BOX -->
+
+    <div id='entrybox' class='text-right entrybox'>
+      <div id='entry' class='entry'>
+        <p id='answer'>{{currentNumberArray | lcdFormat}}</p>
+      </div>
+      <div id='history' class='history'>
+        <p>{{historyArray | historyFormat }}</p>
+      </div>
+    </div>
+
+    <!-- BUTTONS -->
+
+    <div id='buttons' class='buttons'>
+
+      <button class='red' ng-click='clickHandler("ce")'>CE</button>
+      <button class='red' ng-click='clickHandler("c")'>AC</button>
+      <button class='red' ng-click='clickHandler("del")'>del</button>
+      <button value='*' ng-click='clickHandler("*")'>x</button>
+
+      <button value='7' ng-click='clickHandler(7)'>7</button>
+      <button value='8' ng-click='clickHandler(8)'>8</button>
+      <button value='9' ng-click='clickHandler(9)'>9</button>
+      <button value='-' ng-click='clickHandler("-")'>-</button>
+
+      <button value='4' ng-click='clickHandler(4)'>4</button>
+      <button value='5' ng-click='clickHandler(5)'>5</button>
+      <button value='6' ng-click='clickHandler(6)'>6</button>
+      <button value='+' ng-click='clickHandler("+")'>+</button>
+
+
+      <button value='1' ng-click='clickHandler(1)'>1</button>
+      <button value='2' ng-click='clickHandler(2)'>2</button>
+      <button value='3' ng-click='clickHandler(3)'>3</button>
+      <button value='/' ng-click='clickHandler("/")'>/</button>
+
+      <button id='zeroButton' class='zeroButton' value='0' ng-click='clickHandler(0)'>0</button>
+      <button value='.'>.</button>
+      <button id='equalButton' ng-click='clickHandler("=")'>=</button>
+
+    </div>
+    <!-- end buttons -->
+  </div>
+  <!-- end calculator -->
+</div>
+<!-- end container -->
+  
+
+<footer class="container-fluid text-center bg-grey footer">
+  <br>
+  <p>designed and coded by <a href="https://coffey.buzz" title="Patrick Coffey">patrick coffey</a></p> 
+</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+  <script src="pocketCalculator.js"></script>
+</body>
+</html>
