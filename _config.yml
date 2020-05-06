@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Patrick Coffey - Full Stack Software Engineer
-author: Patrick Coffey
-email: coffeypt at gmail.com
+title: coffey.buzz
+author: Patrick Coffey, Software Engineer
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  My goal for this site is to be helpful, or funny, or helpful and funny, and hopefully never 
+  My goal for this blog is to be helpful, or funny, or helpful and funny, and hopefully never 
   not helpful and not funny.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

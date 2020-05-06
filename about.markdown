@@ -4,7 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Patrick Coffey.
+Hi, I'm Patrick Coffey, Full Stack Software Engineer.
+
+Since coffee gives you a buzz, I thought coffey.buzz would be a funny name for my domain, heehee.
+
+And [GT's Buzz](https://www.gatech.edu/prospective-students/where-is-buzz) is the coolest mascot ever. :-) 
+
 
 I've lived in frigid Minnesota, friendly Texas, sunny Florida, fabulous Las Vegas, and currently Duluth, Georgia.
 
