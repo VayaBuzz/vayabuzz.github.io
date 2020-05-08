@@ -1,0 +1,59 @@
+.myId-normal {
+    background: #ffffff;
+    color:black;
+}
+.myId-normal a {
+    color: black;
+    text-decoration: none;
+}
+
+.myId-alternate {
+    background:#000033;
+    color:#faebd7; /*off white;*/
+}
+.myId-alternate a {
+    color:#faebd7;
+    text-decoration: none;
+}
+
+.header {
+  font-size: 36px;
+  text-align:center;
+  margin-top: 10px;
+  margin-bottom: 36px;
+}
+
+.centerBlock {
+    margin: auto;
+    max-width:450px;
+    font-size: 24px;
+    text-align:center;   
+  /*border: 1px solid #aaa; */
+}
+
+.myLocation {
+  font-size: 18px;
+}
+
+.time {
+  font-size: 18px;
+}
+.temperature {
+  font-size: 18px;
+}
+.footer1 {
+  max-width:200px;
+  text-align:center;
+  margin:50px auto 21px;
+  font-size:0.8em; 
+}
+
+.footer2 {
+  text-align:center;
+  margin:0px auto 21px;
+  font-size:0.8em; 
+}
+.cityText{}
+.temperatureText{/* */}
+.tempUnitsTest{}
+.weatherConditions{}
