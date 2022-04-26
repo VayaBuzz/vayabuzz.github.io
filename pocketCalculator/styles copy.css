@@ -18,16 +18,15 @@ body {
   min-height: 100vh;
   grid-template-columns: repeat(4,100px);
   grid-template-rows: minmax(120px, auto) repeat(5,100px);
-  
 }
 
 .calculator-grid > button {
   cursor: pointer;
   font-size: 2rem;
   border: 1px solid white;
-  margin: 1px;
   outline:none;
-  border-radius: 3px;
+  background-color: rgba(255,255,255,.76);
+  border-radius: 5px;
 }
 
 .calculator-grid > button:hover {
@@ -48,9 +47,6 @@ body {
   padding: 10px;
   word-wrap: break-word;
   word-break: break-all;
-  border-radius: 3px;
-  border: 1px solid black;
-  margin: 1px;
 }
 
 .output .previous-operand {
