@@ -17,5 +17,5 @@ I played alto sax for five years in the Georgia Tech marching band, and was sect
 
 I solve interesting problems in Javascript for a living.
 
-I'm blessed with a lovely wife, silly twin daughters, and an orange cat named Emma.
+I'm blessed with a lovely wife, three silly daughters, and an orange cat named Emma.
 
