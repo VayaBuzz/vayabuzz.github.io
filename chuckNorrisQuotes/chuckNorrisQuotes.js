@@ -10,7 +10,7 @@ function openURL(url){
 function getQuote() {
   console.log("entering getQuote()");
   $.ajax({
-    url: '//api.icndb.com/jokes/random/',
+    url: 'https://api.icndb.com/jokes/random',
     success: function(response) {
       console.log(response);
       currentQuote = response.value.joke;
